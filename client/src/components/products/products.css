@@ -1,0 +1,103 @@
+.products{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 50px;
+    background: #edf8fa;
+}
+.products .heading{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    font-size: 3.5rem;
+    font-weight: 650;
+    color: #00303c;
+}
+.products .pro_area{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    height: auto;
+}
+.products .pro_area .cards{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px ;
+    height: 450px;
+    padding: 30px;
+    background: #384967;
+    border-radius: 10px;
+}
+.products .pro_area .cards .card_logo{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+}
+.products .pro_area .cards .card_logo img{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+}
+.products .pro_area .cards .card_heading{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.products .pro_area .cards p{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    color: #ffffe7;
+    font-size: 1.2rem;
+}
+.products .pro_area .cards a{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    color: #a4d0c7;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+@media(max-width:990px) {
+    .products .pro_area{
+        flex-direction: column;
+    }
+    .products .pro_area .cards{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px ;
+        height: auto;
+        padding: 30px;
+        background: #384967;
+        border-radius: 10px;
+    }
+}

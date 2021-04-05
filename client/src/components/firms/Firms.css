@@ -1,0 +1,90 @@
+.firms{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    color: #ffffff;
+    background: #384967;
+    padding: 50px 0;
+}
+.firms .heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.firms .firm_cards{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+    padding: 30px;
+}
+.firms .firm_cards .cards{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+}
+.firms .firm_cards .cards .card_heading{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+.firms .firm_cards .cards p{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    font-size: 1.3rem;
+    padding: 5px 0;
+}
+.firms .firm_cards .cards .firm_links{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.firms .firm_cards .cards .firm_links p{
+   margin: 0;
+   padding: 0;
+}
+.firms .firm_cards .cards .firm_links a{
+    width: 100%;
+    color: #9cd0df;
+    font-weight: 700;
+}
+.firms .firm_cards .cards .firm_links a span{
+    margin: 0 10px;
+}
+@media (max-width:630px){
+    .firms .firm_cards{
+        flex-direction: column;
+    }
+    .firms .firm_cards .cards{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .firms .heading{
+        font-size: 3.rem;
+        padding: 10px;
+    }
+}

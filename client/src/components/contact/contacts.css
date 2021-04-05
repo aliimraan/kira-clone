@@ -1,0 +1,222 @@
+.contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+}
+.contacts .banner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    background: #00303c;
+    padding: 50px;
+}
+.contacts .banner h3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 70%;
+    height: auto;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contacts .contact_area{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: auto;
+}
+.contacts .contact_area .container .row .col-md-6{
+    padding: 10px;
+}
+.contacts .contact_area .container .row .col-md-6 .box1,
+.contacts .contact_area .container .row .col-md-6 .box2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 .image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    color: #00ab51;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    color: #00ab51;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 .logo_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    margin: 10px 0;
+}
+.contacts .contact_area .container .row .col-md-6 .box1 .logo_area img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #00ab51;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .name_field{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .name_field .group{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .name_field .group .label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    text-transform: capitalize;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    height: auto;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .name_field .group input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+    padding: 5px 0;
+    height: auto;
+    box-shadow: inset 0.1px 0.1px 2px #dbdbdb;
+    border: 1px solid #dbdbdb;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .allgroup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .allgroup .label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    text-transform: capitalize;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    height: auto;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .allgroup input,
+.contacts .contact_area .container .row .col-md-6 .box2 form .allgroup select{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5px 0;
+    height: auto;
+    box-shadow: inset 0.1px 0.1px 2px #dbdbdb;
+    border: 1px solid #dbdbdb;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form .allgroup input:focus,
+.contacts .contact_area .container .row .col-md-6 .box2 form .allgroup select:focus{
+   border: 1px solid #00ab51;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form p{
+   font-size:0.9rem;
+   font-weight: 500;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form p a{
+   color:#00ab51;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form button{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: none;
+  outline: none;
+  background: #00c65e;
+  color: #00303c;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+.contacts .contact_area .container .row .col-md-6 .box2 form button:hover{
+  background: #00303c;
+  color: white;
+}
