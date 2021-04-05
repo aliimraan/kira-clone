@@ -1,7 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './contacts.css'
 
 function Contacts() {
+    const [firstName,setFirstName]=useState('')
+    const [lastName,setLastName]=useState('')
+    const [email,setEmail]=useState('')
+    const [organisation,setOrganisation]=useState('')
+    const [jobTitle,setJobTitle]=useState('')
+    const [phoneNo,setPhoneNo]=useState('')
     return (
         <div className="contacts">
             <div className="banner">
@@ -35,24 +41,24 @@ function Contacts() {
                                     <div className="name_field">
                                         <div className="group">
                                             <div className="label">first name</div>
-                                            <input type="text"/>
+                                            <input type="text" onChange={(e)=>setFirstName(e.target.value)}/>
                                         </div>
                                         <div className="group">
                                             <div className="label">last name</div>
-                                            <input type="text"/>
+                                            <input type="text" onChange={(e)=>setLastName(e.target.value)}/>
                                         </div>
                                     </div>
                                     <div className="allgroup">
                                         <div className="label">Email Address</div>
-                                        <input type="email"/>
+                                        <input type="email" onChange={(e)=>setEmail(e.target.value)}/>
                                     </div>
                                     <div className="allgroup">
                                         <div className="label">Organization </div>
-                                        <input type="text"/>
+                                        <input type="text" onChange={(e)=>setOrganisation(e.target.value)}/>
                                     </div>
                                     <div className="allgroup">
                                         <div className="label">Job Title </div>
-                                        <input type="text"/>
+                                        <input type="text" onChange={(e)=>setJobTitle(e.target.value)}/>
                                     </div>
                                     <div className="allgroup">
                                         <div className="label">Organization Type</div>
@@ -76,7 +82,7 @@ function Contacts() {
                                     </div>
                                     <div className="allgroup">
                                         <div className="label">phone</div>
-                                        <input type="number"/>
+                                        <input type="number" onChange={(e)=>setPhoneNo(e.target.value)}/>
                                     </div>
                                     <p>By submitting this request, you agree to Kira Systems using your information to communicate content and partner services. You may review our <a href="#">privacy policy</a> or opt-out by contacting Kira Systems.</p>
                                     <button>Request a Demo</button>
